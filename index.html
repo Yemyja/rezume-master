@@ -95,39 +95,46 @@
 			<div class="filters">
 				<ul>
 					<li class="active" data-filter="*">All</li>
+					<li data-filter=".typography">Proyecto Final</li>
 					<li data-filter=".packaging">Hakaton</li>
 					<li data-filter=".mockup">React</li>
-					<li data-filter=".typography">Games</li>
+					
 					<li data-filter=".photography">Apps</li>
 				</ul>
 			</div>
 
 			<div class="filters-content">
 				<div class="row grid">
-					<div class="single-portfolio col-sm-4 all mockup">
+					
+
+					<div class="single-portfolio col-sm-4 all typography">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/pl.png" alt="">
+								<a href="https://saludfinanciera.netlify.app/" class="img-pop-up">
+								<img class="image img-fluid" src="images/saludfinanciera.png" alt="">
 							</div>
-							<a href="images/pl.png" class="img-pop-up">  
+							<a href="https://saludfinanciera.netlify.app/" class="img-pop-up">  
 								<div class="middle">
 									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
 								</div>
-							</a>                                  
+							</a>                                
 						</div>
 						<div class="p-inner">
-							<h4>Landing Page</h4>
-							<div class="cat">React</div>
-						</div>                                         
+							<h4>Salud financiera</h4>
+							<div class="cat">Proyecto Final</div>
+						</div>
 					</div>
+
 					<div class="single-portfolio col-sm-4 all mockup">
 						<div class="relative">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
+								<a href="robotpage.netlify.app" class="img-pop-up"></a>
+
 								<img class="image img-fluid" src="images/robot.png" alt="">
 							</div>
-							<a href="images/robot.png" class="img-pop-up">  
+							<a href="robotpage.netlify.app" class="img-pop-up">  
 								<div class="middle">
 									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
 								</div>
@@ -137,7 +144,25 @@
 							<h4>Robot</h4>
 							<div class="cat">React</div>
 						</div>                                         
-					</div>                            
+					</div>     
+					<div class="single-portfolio col-sm-4 all mockup">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<a href="https://memory-gameavengers.netlify.app/" class="img-pop-up">
+								<img class="image img-fluid" src="images/p30.png" alt="">
+							</div>
+							<a href="https://memory-gameavengers.netlify.app/" class="img-pop-up">  
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+								</div>
+							</a>                                
+						</div>
+						<div class="p-inner">
+							<h4>Avengers Memory Game</h4>
+							<div class="cat">Games</div>
+						</div>
+					</div>                       
 					<div class="single-portfolio col-sm-4 all packaging">
 						<div class="relative">
 							<div class="thumb">
@@ -176,24 +201,7 @@
 							<div class="cat">Hakaton</div>
 						</div>
 					</div>
-					<div class="single-portfolio col-sm-4 all typography">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<a href="https://memory-gameavengers.netlify.app/" class="img-pop-up">
-								<img class="image img-fluid" src="images/p30.png" alt="">
-							</div>
-							<a href="https://memory-gameavengers.netlify.app/" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-								</div>
-							</a>                                
-						</div>
-						<div class="p-inner">
-							<h4>Avengers Memory Game</h4>
-							<div class="cat">Games</div>
-						</div>
-					</div>
+					
 					<div class="single-portfolio col-sm-4 all photography">
 						<div class="relative">
 							<div class="thumb">
@@ -347,7 +355,7 @@
 
 					<p>
 						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Contratame</a>
-						<a href="#" class="btn btn-secondary px-4 py-2 btn-sm">Descarga CV</a>
+						<a href="https://www.canva.com/design/DAFlGmN6kuk/nzW8wOYSiWmLkClrBsPTvA/view?utm_content=DAFlGmN6kuk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" class="btn btn-secondary px-4 py-2 btn-sm">Descarga CV</a>
 					</p>
 				</div>
 			</div>
@@ -567,25 +575,35 @@
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-					<form action="" class="site-form">
-						<h3 class="mb-5">"Ponte En Contacto"</h3>
+					<form class="site-form" onsubmit="mostrarMensaje()">
+						<h3 class="mb-5">Ponte En Contacto</h3>
 						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+							<input type="text" class="form-control px-3 py-4" placeholder="Nombre">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+							<input type="email" class="form-control px-3 py-4" placeholder="Email">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+							<input type="email" class="form-control px-3 py-4" placeholder="Teléfono">
 						</div>
 						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Escribe un Mensaje"></textarea>
 						</div>
-						<div class="form-group">
-							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+						<div class="form-group1">
+							<input type="submit" class="btn btn-primary  px-4 py-3" value="Enviar">
 						</div>
 					</form>
-				</div>
+					<div id="mensaje-enviado" style="display: none;">
+						<p>¡Mensaje enviado! Nos pondremos en contacto contigo pronto.</p>
+					</div>
+					</div>
+					<script>
+						function mostrarMensaje() {
+							document.getElementById('mensaje-enviado').style.display = 'block';
+							return false; // Evitar que el formulario se envíe realmente
+						}
+					</script>
+					
 				<div class="col-md-5 pl-md-5">
 					<h3 class="mb-5">Detalles De Contacto</h3>
 					<ul class="site-contact-details">
@@ -629,7 +647,7 @@
 			<div class="row mb-5">
 				<p class="col-12 text-center">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true" ></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This is made with <i class="icon-heart text-danger" aria-hidden="true" ></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Yemy</a>
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</p>
 			</div>
